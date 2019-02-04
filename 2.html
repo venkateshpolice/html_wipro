@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Event Management
+	</title>
+</head>
+<style>
+	#top{
+		background:  #85c1e9 ;
+		height:20%;
+		width: 100%;
+
+	}
+	#register
+	{
+		background: #fcf3cf  ;
+		height:20%;
+		width: 100%;
+	}
+</style>
+<body>
+<div id="top">
+<center>
+<h1>Fun Baloon Games <img src="S1GBCOt8.jpg" height="80px" width="80px"></h1>
+<font color="red ">  ** hot balloon riding event from Feb 28th 2017 onwards for 5 days **</font>
+	</center>
+
+
+
+</div>
+<div id="register">
+<center>
+<form action="">
+  <div>
+    <h4>Register</h4>
+    <p>Please fill in this form to register an event.</p>
+    <hr>
+    
+	<label for="name"><b>Name*</b></label>
+    <input type="text" placeholder="Enter a Participant Name" name="Name" onkeypress="return (event.charCode > 64 && 
+event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" >
+     <br>
+
+    <label for="age"><b>Age*</b></label>
+    <input type="number" placeholder="Enter Age" min=18 name="age" required>
+    <br>
+
+    <label for="email"><b>Email*</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+    <br>
+
+  <label for="city"><b>City*</b></label>
+  <select name="continent" size="1" required>
+  <option value="Hyderabad">Hyderabad</option>
+  <option value="Bangalore">Bangalore</option>
+  <option value="Vizag">Vizag</option>
+  <option value="Rajcot">Rajcot</option>
+   </select> 
+     <br>
+
+    <button type="submit">Register</button>
+    <hr>
+    
+</form>
+</center>
+<br>
+<br>
+<br>
+<br></div>
+</body>
+</html>
